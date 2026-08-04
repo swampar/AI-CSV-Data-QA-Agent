@@ -39,3 +39,17 @@ class Question(BaseModel):
 @app.post("/ask")
 def ask_question(item: Question):
     return answer_question(item.question)
+
+@app.get("/summary")
+def summary():
+    df = get_dataframe()
+
+    if df is None:
+        return {"message": "Upload a CSV first."}
+
+    return {
+        "rows": len(df),
+        "columns": list(df.columns),
+        "data_types": df.dtypes.astype(str).to_dict(),
+        "missing_values": df.isnull().sum().to_dict()
+    }
