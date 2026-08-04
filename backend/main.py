@@ -1,3 +1,4 @@
+from query_engine import answer_question
 from fastapi import FastAPI, UploadFile, File
 import shutil
 import os
@@ -29,3 +30,12 @@ async def upload_csv(file: UploadFile = File(...)):
         "rows": len(df),
         "columns": list(df.columns)
     }
+from pydantic import BaseModel
+
+class Question(BaseModel):
+    question: str
+
+
+@app.post("/ask")
+def ask_question(item: Question):
+    return answer_question(item.question)
