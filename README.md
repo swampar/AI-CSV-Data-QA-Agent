@@ -1,5 +1,10 @@
 # 🤖 AI CSV Data QA Agent
 
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green?logo=fastapi)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple?logo=pandas)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 An AI-powered CSV Data Question Answering application that allows users to upload CSV files and ask questions in natural language.
 
 The application analyzes CSV data using AI and Python data analysis libraries to provide accurate answers without requiring SQL or programming knowledge.
@@ -171,3 +176,11 @@ GitHub: https://github.com/swampar
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+## ⭐ Project Highlights
+
+- Built using FastAPI
+- AI-powered CSV question answering
+- Natural language interaction with datasets
+- REST API architecture
+- Easy to extend with additional AI models
