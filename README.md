@@ -26,3 +26,72 @@ This project enables users to:
 - Data Analysis with Pandas
 - Fast and Simple Interface
 - Easy-to-use Web Application
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Python
+
+### Libraries
+- Pandas
+- NumPy
+
+### AI
+- OpenAI API / Gemini API (Update based on the API you used)
+
+### Version Control
+- Git
+- GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+AI-CSV-Data-QA-Agent/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── static/
+├── templates/
+├── uploads/
+└── screenshots/
+```
+
+> **Note:** Update this folder structure if your project contains different files or folders.
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/swampar/AI-CSV-Data-QA-Agent.git
+```
+
+Move into the project folder:
+
+```bash
+cd AI-CSV-Data-QA-Agent
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+python app.py
+```
