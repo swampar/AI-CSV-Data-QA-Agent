@@ -95,3 +95,79 @@ Run the application:
 ```bash
 python app.py
 ```
+
+---
+
+## ▶️ Running the Application
+
+Start the FastAPI server:
+
+```bash
+uvicorn main:app --reload
+```
+
+Open your browser and visit:
+
+```
+http://127.0.0.1:8000
+```
+
+If API documentation is enabled, visit:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## 💡 How to Use
+
+1. Start the FastAPI application.
+2. Upload a CSV file.
+3. Enter a question about the dataset.
+4. Submit the query.
+5. View the AI-generated response.
+
+---
+
+## 📊 Example Questions
+
+- How many rows are in the dataset?
+- What is the average salary?
+- Which department has the highest number of employees?
+- Show the top 10 highest values.
+- Count unique values in a column.
+- What is the maximum and minimum value?
+
+---
+
+## 📸 Screenshots
+
+Screenshots will be added after testing.
+
+---
+
+## 🚀 Future Enhancements
+
+- Support Excel (.xlsx) files
+- Generate charts automatically
+- Export analysis reports
+- Multi-file analysis
+- User authentication
+- Dashboard for data visualization
+
+---
+
+## 👨‍💻 Author
+
+**Sudeep M**
+
+Computer Science Engineering Graduate
+
+GitHub: https://github.com/swampar
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
